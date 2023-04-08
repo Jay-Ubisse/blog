@@ -26,5 +26,5 @@ Route::get('/posts/create', function () {
 })->name('posts.create');
 
 Route::post('/posts', function () {
-    return redirect()->route('postes.create');
+    return redirect()->route('posts.create');
 })->name('posts.store');
