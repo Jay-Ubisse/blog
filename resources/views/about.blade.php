@@ -1,6 +1,6 @@
 @extends('layout')
 
-@Section('About | Blog')
+@Section('title', 'About | Blog')
 
 
 @Section('main')
@@ -9,5 +9,5 @@
 @endsection
 
 @section('footer')
-    <h1>Footer Section</h1>
+    
 @endsection

@@ -1,6 +1,6 @@
 @extends('layout')
 
-@Section('Home | Blog')
+@Section('title', 'Home | Blog')
 
 @Section('main')
     <h1>Home Page</h1>
